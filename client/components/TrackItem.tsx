@@ -15,7 +15,7 @@ const TrackItem: React.FC<TrackItemProps> = ({track, active = false}) => {
 
     return (
         <Card className={styles.track}  onClick={() => router.push('/tracks/' + track._id)}>
-            <IconButton>
+            <IconButton onClick={e => e.stopPropagation()}>
                 {!active ? <PlayArrow /> : <Pause />}
             </IconButton>
             <img width={70} height={70} src={track.picture} />

@@ -23,7 +23,7 @@ const Index = () => {
             text: 'Text 2 ',
             listens: 0,
             audio: 'string 2',
-            picture: 'asflfsaasfasf 2',
+            picture: 'https://upload.wikimedia.org/wikipedia/ru/thumb/3/3e/Black_ice_red.jpg/274px-Black_ice_red.jpg',
             comments: [{_id: '1', username: 'User 2', text: 'text 2'}]
         },
     ]
